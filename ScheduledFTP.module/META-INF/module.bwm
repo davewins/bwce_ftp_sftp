@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_TSz-UPqtEeeL16kONlpqoA" targetNamespace="http://tns.tibco.com/bw/composite/ScheduledFTP.module" name="ScheduledFTP.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_T44f0PqtEeeL16kONlpqoA" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_T47jIPqtEeeL16kONlpqoA" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_T4_NgPqtEeeL16kONlpqoA" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_T5FUIPqtEeeL16kONlpqoA" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_T5LawPqtEeeL16kONlpqoA" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_T5PFIPqtEeeL16kONlpqoA" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_oUrdkBABEeiGa5jlxxUpJQ" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:component xmi:id="_TqI5MPqtEeeL16kONlpqoA" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_TqJgQPqtEeeL16kONlpqoA" processName="scheduledftp.module.FTPList"/>
+  </sca:component>
+  <sca:component xmi:id="_hZmwgPrGEee6W9SzK5EUPQ" name="ComponentFTPGet" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_hZmwgfrGEee6W9SzK5EUPQ" processName="scheduledftp.module.FTPGet"/>
+  </sca:component>
+  <sca:component xmi:id="_H87-EPtkEeeVBOlrkHZpqQ" name="ComponentFTPPut" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_H87-EftkEeeVBOlrkHZpqQ" processName="scheduledftp.module.FTPPut"/>
+  </sca:component>
+  <sca:component xmi:id="_2Dt78PtyEee589IfavO0Hw" name="ComponentSFTPList" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_2Dt78ftyEee589IfavO0Hw" processName="scheduledftp.module.SFTPList"/>
+  </sca:component>
+  <sca:component xmi:id="_InZp0PuEEeejor0X9ZxJ7A" name="ComponentSTFPGet" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_InZp0fuEEeejor0X9ZxJ7A" processName="scheduledftp.module.STFPGet"/>
+  </sca:component>
+  <sca:component xmi:id="_csiMEPuEEeeDo7ZLPSASbw" name="ComponentSFTPPut" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_csiMEfuEEeeDo7ZLPSASbw" processName="scheduledftp.module.SFTPPut"/>
+  </sca:component>
+</sca:composite>

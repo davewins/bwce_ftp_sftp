@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:sftpconnection="http://ns.tibco.com/bw/palette/sftpconnection" xmi:id="_dQlg4ftvEee589IfavO0Hw" name="scheduledftp.module.SFTPConnectionResource" type="sftpconnection:sftpconnection">
+  <jndi:configuration xsi:type="sftpconnection:SFTPConnection" xmi:id="_dQokMPtvEee589IfavO0Hw" host="35.176.111.227" userName="ubuntu" password="#!leVeu6jbFLANoj+sN37YVw==" privKeyAuth="true" privKey="/Users/davidwinstone/.ssh/sftp_server.pem" knownHostFile="~/.ssh/sftp_server.pem"/>
+</jndi:namedResource>
