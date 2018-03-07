@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ftpconnection="http://ns.tibco.com/bw/palette/ftpconnection" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_6qy3APq9Eee7ycIraC-jbA" name="scheduledftp.module.FTPConnectionResource" type="ftpconnection:ftpconnection">
-  <jndi:configuration xsi:type="ftpconnection:FTPConnection" xmi:id="_6q0sMPq9Eee7ycIraC-jbA" host="35.176.111.227" userName="tibco" password="#!Lwwi4gaMfhA6hD+Tmt/oV2W15pKJ/Z7s" remoteFileNameEncoding="Cp1252" proxyPort="8080"/>
+  <jndi:configuration xsi:type="ftpconnection:FTPConnection" xmi:id="_6q0sMPq9Eee7ycIraC-jbA" host="35.176.111.227" userName="tibco" password="#!Lwwi4gaMfhA6hD+Tmt/oV2W15pKJ/Z7s" mode="Passive" remoteFileNameEncoding="ASCII" proxyPort="8080"/>
 </jndi:namedResource>

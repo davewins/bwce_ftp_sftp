@@ -7,6 +7,7 @@
   <sca:property xmi:id="_T5LawPqtEeeL16kONlpqoA" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_T5PFIPqtEeeL16kONlpqoA" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_oUrdkBABEeiGa5jlxxUpJQ" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_T3qMUCEDEei_9_esbmMuSw" name="certificate" type="XMLSchema:string" scaext:simpleValue="" publicAccess="true" scalable="true"/>
   <sca:component xmi:id="_TqI5MPqtEeeL16kONlpqoA" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
     <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_TqJgQPqtEeeL16kONlpqoA" processName="scheduledftp.module.FTPList"/>
   </sca:component>
